@@ -71,9 +71,9 @@ def main() -> None:
         "html theme attr")
 
     t = sub(t,
-        '<title>Тулкит «Импорт из Китая» — ТПЭС</title>\n<style>',
-        '''<title>Тулкит «Импорт из Китая» — ТПЭС</title>
-<meta name="description" content="Практический тулкит ТПЭС: калькулятор стоимости ввоза, документы, проверка поставщика и разбор ошибок при импорте из Китая.">
+        '<title>Важная информация об импорте — ТПЭС</title>\n<style>',
+        '''<title>Важная информация об импорте — ТПЭС</title>
+<meta name="description" content="Практические инструменты ТПЭС: калькулятор стоимости ввоза, документы, проверка поставщика и разбор ошибок при импорте из Китая.">
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <style>''',
         "head script")
